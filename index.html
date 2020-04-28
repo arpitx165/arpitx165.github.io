@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Something is coming soon... Stay tuned!</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="centered">
+    <p class="line-1 anim-typewriter">Hi... I'm Arpit Koolwal </p>
+    <p class="line-1 anim-typewriter">Platform Engineer, ADP </p>
+    <a href="mailto:arpitkoolwal855@gmail.com" class="space" title="Gmail"><i style="font-size:24px" class="fa">&#xf1a0;</i></a>
+    <a href="https://github.com/arpitx165" target="_blank" class=space title="Github"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
+    <a href="https://twitter.com/ImArpitK" target="_blank" class=space title="Twitter"><i style="font-size:24px" class="fa">&#xf099;</i></a>
+    <a href="https://www.linkedin.com/in/arpitkoolwal/" target="_blank" class=space title="Linkedin"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+    <a href="https://www.instagram.com/im_arpitk" target="_blank" class=space title="Instagram"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+    <a href="https://drive.google.com/file/d/17R332B6QaAP4aU997XqE0sQI6ChpHE--/view" target="_blank" class=space title="Resume"><i style="font-size:24px" class="fa">&#xf289;</i></a>
+</div>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+    body {
+        background-image: url('images/bgs.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    /* Global */
+    html{
+        min-height: 100%;
+        overflow: hidden;
+    }
+    body{
+        height: calc(100vh - 8em);
+        padding: 4em;
+        color: rgba(0,0,0,.75);
+        font-family: 'Anonymous Pro', monospace;
+        background-color: rgb(25,25,25);
+    }
+    .line-1{
+        position: relative;
+        width: 50em;
+        margin: 4% auto;
+        border-right: 2px solid rgba(0,0,0,.75);
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+    }
+
+    /* Animation */
+    .anim-typewriter{
+        animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 13em;}
+    }
+    @keyframes blinkTextCursor{
+        from{border-right-color: rgba(0,0,0,.75);}
+        to{border-right-color: transparent;}
+    }
+    .centered {
+        position: fixed;
+        top: 45%;
+        left: 45%;
+        /* bring your own prefixes */
+        transform: translate(-20%, -50%);
+    }
+    .space{
+        padding-left: 20px;
+        color: black;
+    }
+</style>
+
+</body>
+</html>
