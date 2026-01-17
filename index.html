@@ -1,80 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Something is coming soon... Stay tuned!</title>
-    <link rel="icon" href="./images/icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arpit Koolwal</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<div class="centered">
-    <p class="line-1 anim-typewriter">Hi... I'm Arpit Koolwal </p>
-    <p class="line-1 anim-typewriter">SSE, Disney+ Hotstar</p>
-    <a href="mailto:arpitkoolwal855@gmail.com" class="space" title="Gmail"><i style="font-size:24px" class="fa">&#xf1a0;</i></a>
-    <a href="https://github.com/arpitx165" target="_blank" class=space title="Github"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
-    <a href="https://twitter.com/ImArpitK" target="_blank" class=space title="Twitter"><i style="font-size:24px" class="fa">&#xf099;</i></a>
-    <a href="https://www.linkedin.com/in/arpitkoolwal/" target="_blank" class=space title="Linkedin"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
-    <a href="https://www.instagram.com/im_arpitk" target="_blank" class=space title="Instagram"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
-    <a href="https://drive.google.com/file/d/1p7IlGgwEVJIrvBqUarOzZZPQpUc_Y16-/view" target="_blank" class=space title="Resume"><i style="font-size:24px" class="fa">&#xf289;</i></a>
-</div>
+<body>
 
-<style>
-    @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="content">
+      <h1>Hi, I’m Arpit 👋</h1>
+      <p class="subtitle">
+        Software Engineer · Backend · Distributed Systems
+      </p>
 
-    body {
-        background-image: url('./images/bgs.jpeg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    }
-    /* Global */
-    html{
-        min-height: 100%;
-        overflow: hidden;
-    }
-    body{
-        height: calc(100vh - 8em);
-        padding: 4em;
-        color: rgba(0,0,0,.75);
-        font-family: 'Anonymous Pro', monospace;
-        background-color: rgb(25,25,25);
-    }
-    .line-1{
-        position: relative;
-        width: 50em;
-        margin: 4% auto;
-        border-right: 2px solid rgba(0,0,0,.75);
-        font-size: 180%;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        transform: translateY(-50%);
-    }
+      <div class="links">
+        <a href="https://github.com/arpitx165" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/arpitkoolwal/" target="_blank">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/4621535/arpit" target="_blank">Stack Overflow</a>
+        <a href="mailto:arpitkoolwal855@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
 
-    /* Animation */
-    .anim-typewriter{
-        animation: typewriter 4s steps(44) 1s 1 normal both,
-        blinkTextCursor 500ms steps(44) infinite normal;
-    }
-    @keyframes typewriter{
-        from{width: 0;}
-        to{width: 13em;}
-    }
-    @keyframes blinkTextCursor{
-        from{border-right-color: rgba(0,0,0,.75);}
-        to{border-right-color: transparent;}
-    }
-    .centered {
-        position: fixed;
-        top: 45%;
-        left: 45%;
-        /* bring your own prefixes */
-        transform: translate(-20%, -50%);
-    }
-    .space{
-        padding-left: 20px;
-        color: black;
-    }
-</style>
+  <!-- EXPERIENCE SECTION -->
+  <section class="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <h3>Senior Software Engineer</h3>
+      <span class="company">Disney+ Hotstar</span>
+      <span class="duration">Oct 2022 – Sep 2025</span>
+      <div class="tech-stack">Tech Stack: Java | Go | Python | Mysql | Redis | K8s | AWS</div>
+      <ul>
+        <li>Led the development of an AdTech platform reaching millions of users every day, with experience scaling live ad serving systems to support millions of concurrent viewers during peak events.</li>
+        <li>Contributed to building the SGAI stack from the ground up, enabling user-level ad decisioning for high-scale sporting events (IPL, ICC World Cup, Bigg Boss, etc).</li>
+        <li>Unlocked new revenue channels by enabling programmatic ads (PG/OE) for live and VOD streams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Senior Software Engineer</h3>
+      <span class="company">OkCredit</span>
+      <span class="duration">Jan 2021 – Sep 2022</span>
+      <div class="tech-stack">Tech Stack: Go | Python | Redis | Postgres | K8s | GCP</div>
+      <ul>
+        <li>Led the development of an AdTech platform reaching millions of users every day, with experience scaling live ad serving systems to support millions of concurrent viewers during peak events.</li>
+        <li>Contributed to building the SGAI stack from the ground up, enabling user-level ad decisioning for high-scale sporting events (IPL, ICC World Cup, Bigg Boss, etc).</li>
+        <li>Unlocked new revenue channels by enabling programmatic ads (PG/OE) for live and VOD streams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Platform Engineer</h3>
+      <span class="company">ADP</span>
+      <span class="duration">Oct 2019 – Dec 2020</span>
+      <div class="tech-stack">Tech Stack: Nodejs | Python | Mysql | K8s | AWS</div>
+      <ul>
+        <li>Contributed to the development of a next-generation Human Capital Management (HCM) Platform.</li>
+        <li>Implemented multi-region scaling for micro-services and worked on database sharding to cater to clients located in diverse geographical regions.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Software Engineer</h3>
+      <span class="company">Zinnov</span>
+      <span class="duration">Jun 2018 – Oct 2019</span>
+      <div class="tech-stack">Tech Stack: Django | Python | ORM | Mysql | Neo4j | AWS</div>
+      <ul>
+        <li>Contributed to the development of a platform specialising in sales enablement and talent intelligence.</li>
+        <li>Implemented a career path predictor capable of making predictions based on provided start or end roles.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Product Engineer</h3>
+      <span class="company">SLK Software</span>
+      <span class="duration">Jul 2017 – Jun 2018</span>
+      <div class="tech-stack">Tech Stack: Python | Nodejs | Cassandra | PMD</div>
+      <ul>
+        <li>Developed Java source code analysis tools.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- BLOGS SECTION -->
+  <section class="blogs">
+    <h2>Blogs</h2>
+    <div class="blog">
+      <h3>SQL Query Plans Demystified: Optimize Database Performance</h3>
+      <p>A deep dive into understanding SQL query execution plans and strategies to optimize database performance for better scalability and efficiency.</p>
+      <a href="https://medium.com/@connect.thinkstack/sql-query-plans-demystified-optimize-database-performance-8f7b41d7f9d3" target="_blank" class="blog-link">Read on Medium →</a>
+    </div>
+  </section>
 
 </body>
 </html>
