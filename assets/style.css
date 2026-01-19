@@ -210,7 +210,7 @@ p {
 }
 
 .hero h1 {
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .subtitle {
@@ -235,7 +235,7 @@ p {
   text-decoration: none;
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-sm);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   padding: var(--spacing-md) var(--spacing-lg);
   border: var(--border-width) solid rgba(255, 255, 255, 0.5);
   background: transparent;
